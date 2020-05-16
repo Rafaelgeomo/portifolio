@@ -176,6 +176,7 @@ header{
     padding:center;
     font-family: 'Noto Sans', serif;
     color: rgb(218, 118, 118);
+    font-size: 0.7em;
 }
 .projetos a {
     text-decoration: none;
@@ -184,6 +185,7 @@ header{
 .projetos a:hover {
     opacity: 0.4;
 }
+
 
 
 

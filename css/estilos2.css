@@ -15,7 +15,7 @@ body {
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
-        font-size: 17px;
+        font-size: 14px;
     }
     .menu {
         width: 100vw;
@@ -29,7 +29,7 @@ body {
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
     body {
-        font-size: 21px;
+        font-size: 17px;
     }
     .menu {
         width: 100vw;
@@ -43,7 +43,7 @@ body {
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 1024px ) {
     body {
-        font-size: 25px;
+        font-size: 18px;
     }
     .menu a {
         font-size: 1em;
