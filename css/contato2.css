@@ -5,15 +5,14 @@
 }
 .contatos {
     margin: auto;
-    height: 60vh;
-    background-color: red;
+    min-height: 70vh;
     position: relative;
 }
 .contatos h2 {
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
     color: #24DF82;
-    padding-top: 120px;
+    padding-top: 35px;
 }
 .contatos .grid {
     display: grid;
@@ -73,9 +72,8 @@
 }
 .contatos .icons {
     position: absolute;
-    bottom:0;
+    bottom:30px;
     width: 100%;
-    background-color: pink;
    /*mexer aqui para arrumar padding: 345px;*/
 
 }
