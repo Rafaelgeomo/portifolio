@@ -5,7 +5,8 @@
 }
 .projetos {
     margin: auto;
-    min-height: 100vh;
+    min-height: 85vh;
+    position: relative;
 }
 .projetos h2 {
     font-family: 'Comic Neue', cursive;
