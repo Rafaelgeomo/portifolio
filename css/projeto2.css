@@ -29,7 +29,7 @@
         transition: transform 500ms;
     }
     .img-projeto:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .projetos h2 {
         font-size: 2.2em;
@@ -56,7 +56,7 @@
         border-radius:20px;/*faz com que a imagem fique arredondada */
     }
     .img-projeto:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .projetos figcaption {
         padding:center;
@@ -79,13 +79,14 @@
         border-radius:20px;/*faz com que a imagem fique arredondada */
     }
     .img-projeto:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     .projetos figcaption {
     padding:center;
     font-family: 'Noto Sans', serif;
     color: #24DF82;
-    font-size: 1em;
+    font-size: 0.8em;
+    text-align: center;
     }
 }
 .projetos figure {
@@ -94,9 +95,7 @@
 .projetos a {
     text-decoration: none;
 }
-..contatos .icons {
-    text-align: center;
-}
+
 
 
 
