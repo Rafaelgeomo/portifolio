@@ -15,7 +15,7 @@ body {
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
-        font-size: 17px;
+        font-size: 14px;
     }
 .menu a {
         font-size: 0.7em;
@@ -87,7 +87,6 @@ h3 {
     width: 100vw;
     text-align: center;
 }
-
 .site-title {
     color: #58F3A5;
     text-align: center;

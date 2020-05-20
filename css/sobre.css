@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sobre {
+    margin: auto;
+    min-height: 95vh;
+    position: relative;
+}
+.sobre h2 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 3em;
+    color: #24DF82;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+}

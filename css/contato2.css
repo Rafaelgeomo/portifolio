@@ -12,7 +12,8 @@
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
     color: #24DF82;
-    padding-top: 35px;
+    margin-bottom: 1.5em;
+    padding-top: 130px;
 }
 .contatos .grid {
     display: grid;
@@ -29,6 +30,7 @@
       .contatos h2 {
         font-size: 2.2em;
       }
+      
       /*.img-portfolio {
         height: 45px;
         width: 45px;

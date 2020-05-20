@@ -5,7 +5,7 @@
 }
 .projetos {
     margin: auto;
-    min-height: 85vh;
+    min-height: 90vh;
     position: relative;
 }
 .projetos h2 {
@@ -14,7 +14,6 @@
     color: #24DF82;
     margin-bottom: 1.5em;
     padding-top: 1.5em;
-    
 }
 .projetos .grid {
     display: grid;
