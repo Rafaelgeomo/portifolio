@@ -11,7 +11,7 @@
 .projetos h2 {
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
-    color: #24DF82;
+    color: black;
     margin-bottom: 2em;
     padding-top: 2.5em;
 }
@@ -19,19 +19,40 @@
     display: grid;
     gap: 3.5em;
 }
+/*.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 3s;
+}
+.flip-card {
+    perspective: 600px ; numeração do 3D*/
+
+/*.flip-card:hover .card {
+    transform: rotateY(180deg);
+}
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; esconde a parte de trás da imagem
+    
+}
+.card-back {
+    background-color:whitesmoke;
+    transform: rotateY(180deg);
+    
+}*/
 @media (min-width: 320px) {
      .img-projeto {
         height: 80px;
         width: 110px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
         object-position: left bottom; /*mover a imagem dentro da caixa*/
-        border-radius:20px;/*faz com que a imagem fique arredondada */
+        /*border-radius:20px;faz com que a imagem fique arredondada */
         transition: transform 500ms;
     }
-    .img-projeto:hover {
-        transform: scale(1.1);
-    }
-    .projetos h2 {
+   .projetos h2 {
         font-size: 1em;
         margin-bottom: 2em;
         padding-top: 3.5em;
@@ -39,7 +60,7 @@
     .projetos figcaption {
         padding:center;
         font-family: 'Noto Sans', serif;
-        color: #24DF82;
+        color: black;
         font-size: 0.8em;
     }
 }
@@ -55,16 +76,17 @@
         width: 120px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
         object-position: right bottom; /*mover a imagem dentro da caixa*/
-        border-radius:20px;/*faz com que a imagem fique arredondada */
+        /*border-radius:20px;faz com que a imagem fique arredondada */
     }
-    .img-projeto:hover {
-        transform: scale(1.1);
-    }
-    .projetos figcaption {
+   .projetos figcaption {
         padding:center;
         font-family: 'Noto Sans', serif;
-        color: #24DF82;
+        color: black;
         font-size: 1em;
+    }
+    .card-back {
+        height: 90px;
+        width: 100%
     }
 }
 @media (min-width: 880px) {
@@ -83,17 +105,18 @@
         width: 220px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
         object-position: left bottom; /*mover a imagem dentro da caixa*/
-        border-radius:20px;/*faz com que a imagem fique arredondada */
-    }
-    .img-projeto:hover {
-        transform: scale(1.1);
+        /*border-radius:20px;faz com que a imagem fique arredondada */
     }
     .projetos figcaption {
     padding:center;
     font-family: 'Noto Sans', serif;
-    color: #24DF82;
+    color: black;
     font-size: 0.8em;
     text-align: center;
+    }
+    .card-back {
+        height: 160px;
+        width: 100%
     }
 }
 @media (min-width: 1440px) {

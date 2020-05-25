@@ -11,7 +11,7 @@
 }
 .contatos h2 {
     font-family: 'Comic Neue', cursive;
-    color: #24DF82;
+    color: black;
 }
 .contatos .grid {
     display: grid;
@@ -100,16 +100,15 @@
         bottom:315px;
         width: 100%;
     }
-
 }     
 .contatos a {
-    color: whitesmoke;
+    color: rgb(226, 161, 100);
     font-size: 3.5em;
 }
 .contatos a:active,
 .contatos a:hover {
     text-decoration: none;
-    text-shadow: 0px 0px 10px rgba(36, 223, 130,0.7); /*Primeiro valor eixo X, segundo eixo Y terceiro valor o quanto borrado ele vai ficar*/
+    text-shadow: 0px 0px 10px black; /*Primeiro valor eixo X, segundo eixo Y terceiro valor o quanto borrado ele vai ficar*/
 }
 
 
