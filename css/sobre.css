@@ -4,14 +4,59 @@
     box-sizing: border-box;
 }
 .sobre {
-    margin: auto;
-    min-height: 95vh;
+    margin: 20px;
+    min-height: 70vh;
     position: relative;
+    padding-top: 3.5em;
 }
 .sobre h2 {
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
     color: #24DF82;
     margin-bottom: 1.5em;
-    padding-top: 1.5em;
+    padding-top: 0;
+}
+.sobre p {
+    text-indent: 1.4em;
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+.sobre .avatar {
+    float: right;
+    margin-left: 2em;
+}
+.sobre .avatar img {
+    border-radius: 50%;
+}
+@media (min-width: 320px ) {
+.sobre {
+    min-height: 70vh;
+    padding-top: 3.5em;
+}
+.sobre h2 {
+    font-size: 1.2em;
+    margin-bottom: 1.7em;
+}
+}
+@media (min-width: 560px ) {
+    .sobre h2 {
+        font-size: 1.6em;
+        margin-bottom: 0.7em;
+        padding-top: 0;
+    }
+}
+@media (min-width: 880px ) {
+    .sobre h2 {
+        font-size: 1.8em;
+        margin-bottom: 0.7em;
+        padding-top: 84px;
+        padding-top: 0;
+    }
+}
+@media (min-width: 1440px ) {
+    .sobre h2 {
+        font-size: 2.1em;
+        margin-bottom: 0.7em;
+        padding-top: 0;
+    }
 }

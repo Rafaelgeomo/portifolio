@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 .projetos {
-    margin: auto;
-    min-height: 90vh;
+    margin: 20px;
+    min-height: 100vh;
     position: relative;
 }
 .projetos h2 {
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
     color: #24DF82;
-    margin-bottom: 1.5em;
-    padding-top: 1.5em;
+    margin-bottom: 2em;
+    padding-top: 2.5em;
 }
 .projetos .grid {
     display: grid;
-    gap: 4em;
+    gap: 3.5em;
 }
 @media (min-width: 320px) {
      .img-projeto {
@@ -32,7 +32,9 @@
         transform: scale(1.1);
     }
     .projetos h2 {
-        font-size: 2.2em;
+        font-size: 1em;
+        margin-bottom: 2em;
+        padding-top: 3.5em;
     }
     .projetos figcaption {
         padding:center;
@@ -43,16 +45,16 @@
 }
 @media (min-width: 560px) {
     .projetos .grid {
-      grid-template-columns: 250px 250px;
+      grid-template-columns: repeat(3, 120px);
     }
     .projetos h2 {
-        font-size: 3.1em;
+        font-size: 1.5em;
       }
     .img-projeto {
-        height: 180px;
-        width: 250px;
+        height: 90px;
+        width: 120px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: left bottom; /*mover a imagem dentro da caixa*/
+        object-position: right bottom; /*mover a imagem dentro da caixa*/
         border-radius:20px;/*faz com que a imagem fique arredondada */
     }
     .img-projeto:hover {
@@ -67,13 +69,18 @@
 }
 @media (min-width: 880px) {
     .projetos .grid {
-      grid-template-columns: repeat(3, 250px);
+      grid-template-columns: repeat(3, 220px);
       align-content: center;
       justify-content: center;
     }
+    .projetos h2 {
+        font-size: 1.7em;
+        margin-bottom: 1em;
+        padding-top: 2em;
+    }
     .img-projeto {
-        height: 190px;
-        width: 260px;
+        height: 160px;
+        width: 220px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
         object-position: left bottom; /*mover a imagem dentro da caixa*/
         border-radius:20px;/*faz com que a imagem fique arredondada */
@@ -89,6 +96,13 @@
     text-align: center;
     }
 }
+@media (min-width: 1440px) {
+    .projetos h2 {
+        font-size: 2em;
+    }
+
+}
+
 .projetos figure {
     text-align: center;
 }

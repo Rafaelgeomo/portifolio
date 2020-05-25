@@ -40,75 +40,6 @@ h3 {
     color: darkgrey;
     text-align: center;
 }
-.projetos .grid {
-    grid-template-columns: 110px 110px;
-}
-.img-projeto {
-    height: 80px;
-    width: 110px;
-    object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-    object-position: left bottom; /*mover a imagem dentro da caixa*/
-    border-radius:20px;/*faz com que a imagem fique arredondada */
-    transition: transform 500ms;
-}
-.img-projeto:hover {
-    transform: scale(1.1);
-}
-.projetos h2 {
-    font-size: 2.2em;
-}
-.projetos figcaption {
-    padding:center;
-    font-family: 'Noto Sans', serif;
-    color: #24DF82;
-    font-size: 0.8em;
-}
-.contatos .grid {
-    grid-template-columns: repeat(4, 40px);
-    align-content: center;
-    justify-content: center;
-    font-size: 0.4em;
-}
-.sobre {
-    margin: 20px;
-    min-height: 70vh;
-    padding-top: 3.5em;
-}
-.projetos {
-    margin: 20px;
-    min-height: 75vh;
-    padding-top: -0.5em;
-}
-.projetos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1em;
-    color: #24DF82;
-    margin-bottom: 1.5em;
-    padding-top: 2.5em;
-}
-.contatos {
-    min-height: 40vh;
-    padding-top: -0.5em;
-    
-}
-.contatos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1em;
-    color: #24DF82;
-    margin: 20px;
-    padding-top: 0.5em;
-}
-.sobre h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1em;
-    color: #24DF82;
-    margin-bottom: 1.7em;
-}
-.contatos .icons {
-    position: relative;
-    bottom: -40em;
-    width: 100%;
-}
 }
 /*Se a tela tiver pelo menos 500 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
@@ -141,52 +72,6 @@ h3 {
     font-style: italic;
     color: darkgrey;
     text-align: center;
-}
-.projetos .grid {
-    grid-template-columns: 160px 160px;
-}
-.img-projeto {
-      height: 100px;
-      width: 160px;
-      object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-      object-position: left bottom; /*mover a imagem dentro da caixa*/
-      border-radius:20px;/*faz com que a imagem fique arredondada */
-  }
-  .img-projeto:hover {
-      transform: scale(1.1);
-  }
-  .projetos figcaption {
-      padding:center;
-      font-family: 'Noto Sans', serif;
-      color: #24DF82;
-      font-size: 1em;
-  }
-  .contatos .grid {
-    grid-template-columns: repeat(4, 60px);
-    align-content: center;
-    justify-content: center;
-    font-size: 0.4em;
-  }
-.projetos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.5em;
-    color: #24DF82;
-    margin: 20px;
-}
-.contatos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.5em;
-    color: #24DF82;
-    margin-bottom:  7.4em;
-    margin-top: -12px;
-    line-height: 187px;
-}
-.sobre h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.5em;
-    color: #24DF82;
-    margin-bottom: 0.7em;
-    padding-top: 84px;
 }
 }
 /*Se a tela tiver pelo menos 880 (laptop) pixels vai carregar estes estilos*/
@@ -222,56 +107,6 @@ h3 {
     color: darkgrey;
     text-align: center;
 }
-.projetos .grid {
-    grid-template-columns: repeat(3, 160px);
-    align-content: center;
-    justify-content: center;
-  }
-  .img-projeto {
-      height: 100px;
-      width: 160px;
-      object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-      object-position: left bottom; /*mover a imagem dentro da caixa*/
-      border-radius:20px;/*faz com que a imagem fique arredondada */
-  }
-  .img-projeto:hover {
-      transform: scale(1.1);
-  }
-  .projetos figcaption {
-  padding:center;
-  font-family: 'Noto Sans', serif;
-  color: #24DF82;
-  font-size: 0.8em;
-  text-align: center;
-  }
-.contatos .grid {
-    grid-template-columns: repeat(4, 70px);
-    align-content: center;
-    justify-content: center;
-    font-size: 0.4em;
-}
-.projetos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.7em;
-    color: #24DF82;
-    margin-bottom: 1.5em;
-    padding-top: 1.5em;
-}
-.contatos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.7em;
-    color: #24DF82;
-    margin: 20px;
-    padding-top: 0.5em;
-}
-.sobre h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 1.7em;
-    color: #24DF82;
-    margin-bottom: 0.7em;
-    padding-top: 84px;
-    padding-top: 135px;
-} 
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
 @media (min-width: 1440px ) {
@@ -299,40 +134,13 @@ h3 {
     font-size: 1.6em;
     line-height: 2.5em;
 }
-.projetos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 2em;
-    color: #24DF82;
-    margin-bottom: 1.5em;
-    padding-top: 1.5em;
-}
-.contatos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 2em;
-    color: #24DF82;
-    margin-bottom:  7.4em;
-    margin-top: -12px;
-    line-height: 187px;
-}
-.sobre h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 2em;
-    color: #24DF82;
-    margin-bottom: 0.7em;
-    padding-top: 84px;
-    padding-top: 135px;
-}
-.contatos .icons {
-    position: relative;
-    bottom:315px;
-    width: 100%;
-}
 }
 header{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5em;
 }
 .menu {
     position: fixed;
@@ -364,53 +172,6 @@ header{
     background-color:black;
     color:#6CEEC0;
 }
-.sobre p {
-    text-indent: 1.4em;
-    margin-bottom: 1.2em;
-    text-align: justify;
-}
-.sobre {
-    margin: 20px;
-    min-height: 70vh;
-    padding-top: 3.5em;
-}
-.projetos {
-    margin: 20px;
-    min-height: 85vh;
-    padding-top: -0.5em;
-}
-.contatos {
-    min-height: 70vh;
-    padding-top: 5em;
-}
-.contatos .icons {
-    position: relative;
-    bottom: -15em;
-    width: 100%;
-}
-.projetos .grid {
-    display: grid;
-    gap: 4em;
-}
-.contatos .grid {
-    display: grid;
-}
-.projetos figure {
-    text-align: center;
-}
-.projetos a {
-    text-decoration: none;
-}
-.contatos a {
-    color: whitesmoke;
-    font-size: 3.5em;
-}
-.contatos a:active,
-.contatos a:hover {
-    text-decoration: none;
-    text-shadow: 0px 0px 10px rgba(36, 223, 130,0.7); /*Primeiro valor eixo X, segundo eixo Y terceiro valor o quanto borrado ele vai ficar*/
-}
-
 
 
 
