@@ -21,13 +21,6 @@
     margin-bottom: 1.2em;
     text-align: justify;
 }
-.sobre .avatar {
-    float: right;
-    margin-left: 2em;
-}
-.sobre .avatar img {
-    border-radius: 50%;
-}
 @media (min-width: 320px ) {
 .sobre {
     min-height: 70vh;
@@ -37,12 +30,27 @@
     font-size: 1.2em;
     margin-bottom: 1.7em;
 }
+.sobre .avatar img {
+    margin-left: 3.5em;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
+}
 }
 @media (min-width: 560px ) {
     .sobre h2 {
         font-size: 1.6em;
         margin-bottom: 0.7em;
         padding-top: 0;
+    }
+    .sobre .avatar img {
+        float: right;
+        margin-left: 2em;
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
     }
 }
 @media (min-width: 880px ) {
@@ -52,11 +60,27 @@
         padding-top: 84px;
         padding-top: 0;
     }
+    .sobre .avatar img {
+        float: right;
+        margin-left: 2em;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
+    }
 }
 @media (min-width: 1440px ) {
     .sobre h2 {
         font-size: 2.1em;
         margin-bottom: 0.7em;
         padding-top: 0;
+    }
+    .sobre .avatar img {
+        float: right;
+        margin-left: 2em;
+        border-radius: 50%;
+        height: 320px;
+        width: 320px;
+        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
     }
 }
