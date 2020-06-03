@@ -3,12 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.contatos {
-    margin: 20px;
-    position: relative;
-    margin-top: -15em;
-    min-height: 60vh;
-}
 .contatos h2 {
     font-family: 'Comic Neue', cursive;
     color: black;
@@ -28,8 +22,6 @@
       }
      .contatos h2 {
         font-size: 1.2em;
-        line-height: 300px;
-        margin-bottom:  -8.5em;
     }
     .contatos .icons {
         position: relative;
@@ -54,8 +46,6 @@
       }
      .contatos h2 {
         font-size: 1.6em;
-        line-height: 187px;
-        margin-bottom:  -3.5em;
     }
     .contatos .icons {
         position: relative;
@@ -79,8 +69,6 @@
       }
      .contatos h2 {
         font-size: 1.7em;
-        line-height: 652px;
-        margin-bottom: -9.5em;
     }
     .contatos .icons {
         position: relative;
@@ -91,9 +79,6 @@
 @media (min-width: 1440px) {
     .contatos h2 {
         font-size: 2.1em;
-        margin-bottom:  7.4em;
-        margin-top: -12px;
-        line-height: 187px;
     }
     .contatos .icons {
         position: relative;

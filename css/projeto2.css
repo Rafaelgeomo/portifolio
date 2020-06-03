@@ -11,13 +11,17 @@
 }
 .projetos h2 {
     font-family: 'Comic Neue', cursive;
-    font-size: 3em;
     color: black;
-    margin-bottom: 1em;
 }
 .projetos .grid {
     display: grid;
     gap: 3.5em;
+}
+.projetos figure {
+    text-align: center;
+}
+.projetos a {
+    text-decoration: none;
 }
 /*.card {
     position: relative;
@@ -51,10 +55,9 @@
         object-position: 0; /*mover a imagem dentro da caixa*/
         border-radius: 10px;
     }
-    .projetos h2, .sobre h2 {
+    .projetos h2 {
         font-size: 1em;
         margin-bottom: 1em;
-        
     }
     .projetos figcaption {
         padding:center;
@@ -67,7 +70,7 @@
     .projetos .grid {
       grid-template-columns: repeat(3, 100px);
     }
-    .projetos h2, .sobre h2 {
+    .projetos h2 {
         font-size: 1.5em;
         margin-bottom: 1em;
         padding-top: 2em;
@@ -92,10 +95,10 @@
       align-content: center;
       justify-content: center;
     }
-    .projetos h2, .sobre h2 {
-        font-size: 1.7em;
+    .projetos h2 {
+        font-size: 1.8em;
         margin-bottom: 1em;
-        padding-top: 3em;
+        padding-top: 15px;
     }
     .img-ford, .img-barbearia, .img-ello {
         height: 160px;
@@ -111,6 +114,14 @@
     font-size: 0.8em;
     text-align: center;
     }
+}
+@media (min-width: 1024px) {
+    .projetos h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+        padding-top: 165px;
+    }
+}
 @media (min-width: 1440px) {
     .projetos .grid {
         grid-template-columns: repeat(3, 300px);
@@ -129,12 +140,6 @@
         object-position: 0; /*mover a imagem dentro da caixa*/
         border-radius: 10px;
     }
-}
-.projetos figure {
-    text-align: center;
-}
-.projetos a {
-    text-decoration: none;
 }
 
 
