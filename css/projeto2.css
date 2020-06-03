@@ -112,27 +112,22 @@
     text-align: center;
     }
 @media (min-width: 1440px) {
+    .projetos .grid {
+        grid-template-columns: repeat(3, 300px);
+        align-content: center;
+        justify-content: center;
+        }
+
     .projetos h2 {
         font-size: 2em;
         margin-bottom: 1em;
     }
-    .img-ford, {
-        height: 160px;
-        width: 220px;
+    .img-ford, .img-barbearia, .img-ello {
+        height: 200px;
+        width: 300px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
         object-position: 0; /*mover a imagem dentro da caixa*/
-    }
-    .img-barbearia {
-        height: 160px;
-        width: 220px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-    }
-    .img-ello {
-        height: 80px;
-        width: 110px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
+        border-radius: 10px;
     }
 }
 .projetos figure {
