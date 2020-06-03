@@ -44,7 +44,7 @@
         object-position: left bottom; mover a imagem dentro da caixa
         border-radius:45px; faz com que a imagem fique arredondada */
 }
-@media (min-width: 560px) {
+@media (min-width: 460px) {
     .contatos .grid {
         grid-template-columns: repeat(4, 60px);
         align-content: center;

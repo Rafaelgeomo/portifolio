@@ -11,6 +11,47 @@ body {
     text-align: justify;
     height: 100vh;
 }
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    position: fixed;
+    width: 100vw;
+    top:0;
+    background-color:rgb(252, 133, 36);
+    z-index: 1;
+}
+.menu ul {
+  display:flex;
+  justify-content: space-evenly;
+}
+.menu li {
+    list-style: none;
+    text-shadow: 5px 5px 11px black;
+    text-transform: uppercase;
+}
+.menu a {
+    display:block;
+    padding: 20px 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 0.8em;
+    color:black;
+    text-decoration: none;
+    transition: background-color 1s, color 1s;
+}
+.menu a:active,
+.menu a:hover {
+    background-color:black;
+    color:rgb(252, 133, 36);
+}
+
+.principal {
+    min-height: 60vh;
+
+}
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
@@ -41,13 +82,20 @@ h3 {
 }
 }
 /*Se a tela tiver pelo menos 500 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 560px ) {
+@media (min-width: 460px ) {
     body {
         font-size: 15px;
     }
+    .menu {
+         width: 120vw;
+        }
     .menu a {
         font-size: 0.8em;
    }
+   .principal {
+    height: 70vh;
+
+}
    .site-title {
     color: rgb(19, 20, 20);
     text-align: center;
@@ -78,7 +126,6 @@ h3 {
         font-size: 1em;
 }
 .menu {
-    width: 100vw;
     text-align: center;
 }
 .site-title {
@@ -112,7 +159,6 @@ h3 {
         font-size: 1.2em;
 }
 .menu {
-    width: 100vw;
     text-align: center;
 }
 .site-title {
@@ -130,45 +176,6 @@ h3 {
     line-height: 2.5em;
 }
 }
-header{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
-}
-.menu {
-    position: fixed;
-    width: 120vw;
-    top:0;
-    background-color:rgb(252, 133, 36);
-    z-index: 1;
-}
-.menu ul {
-  display:flex;
-  justify-content: space-evenly;
-}
-.menu li {
-    list-style: none;
-    text-shadow: 5px 5px 11px black;
-    text-transform: uppercase;
-}
-.menu a {
-    display:block;
-    padding: 10px 20px;
-    font-family: 'Comic Neue', cursive;
-    font-size: 0.8em;
-    color:black;
-    text-decoration: none;
-    transition: background-color 1s, color 1s;
-}
-.menu a:active,
-.menu a:hover {
-    background-color:black;
-    color:rgb(252, 133, 36);
-}
-
-
 
 /*
 .site-subtitle {

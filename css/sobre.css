@@ -5,7 +5,7 @@
 }
 .sobre {
     margin: 20px;
-    min-height: 70vh;
+    min-height: 80vh;
     position: relative;
     padding-top: 3.5em;
 }
@@ -13,8 +13,6 @@
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
     color: black;
-    margin-bottom: 1.5em;
-    padding-top: 0;
 }
 .sobre p {
     text-indent: 1.4em;
@@ -22,13 +20,9 @@
     text-align: justify;
 }
 @media (min-width: 320px ) {
-.sobre {
-    min-height: 70vh;
-    padding-top: 3.5em;
-}
 .sobre h2 {
     font-size: 1.2em;
-    margin-bottom: 1.7em;
+    margin-bottom: 1em;
 }
 .sobre .avatar img {
     margin-left: 3.5em;
@@ -38,11 +32,10 @@
     /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
 }
 }
-@media (min-width: 560px ) {
+@media (min-width: 460px ) {
     .sobre h2 {
-        font-size: 1.6em;
-        margin-bottom: 0.7em;
-        padding-top: 0;
+        font-size: 1.5em;
+        margin-bottom: 1em;
     }
     .sobre .avatar img {
         float: right;
@@ -56,9 +49,8 @@
 @media (min-width: 880px ) {
     .sobre h2 {
         font-size: 1.8em;
-        margin-bottom: 0.7em;
-        padding-top: 84px;
-        padding-top: 0;
+        margin-bottom: 1em;
+        padding-top: 15px;
     }
     .sobre .avatar img {
         float: right;
