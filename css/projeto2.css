@@ -44,25 +44,14 @@
     
 }*/
 @media (min-width: 320px) {
-     .img-ford {
-        height: 80px;
-        width: 110px;
+     .img-ford, .img-barbearia, .img-ello {
+        height: 70px;
+        width: 90px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
+        object-position: 0; /*mover a imagem dentro da caixa*/
+        border-radius: 10px;
     }
-    .img-barbearia {
-        height: 80px;
-        width: 110px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-    }
-    .img-ello {
-        height: 80px;
-        width: 110px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-    }
-   .projetos h2 {
+    .projetos h2, .sobre h2 {
         font-size: 1em;
         margin-bottom: 1em;
         
@@ -76,33 +65,21 @@
 }
 @media (min-width: 460px) {
     .projetos .grid {
-      grid-template-columns: repeat(3, 120px);
+      grid-template-columns: repeat(3, 100px);
     }
-    .projetos h2 {
+    .projetos h2, .sobre h2 {
         font-size: 1.5em;
         margin-bottom: 1em;
-      }
-    .img-ford {
-        height: 90px;
-        width: 120px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-        /*border-radius:20px;faz com que a imagem fique arredondada */
+        padding-top: 2em;
     }
-    .img-barbearia {
-        height: 90px;
-        width: 120px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-        /*border-radius:20px;faz com que a imagem fique arredondada */
-    }
-    .img-ello {
+    .img-ford, .img-barbearia, .img-ello {
         height: 80px;
-        width: 110px;
+        width: 100px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
+        object-position: 0; /*mover a imagem dentro da caixa*/
+        border-radius: 10px;
     }
-   .projetos figcaption {
+    .projetos figcaption {
         padding:center;
         font-family: 'Noto Sans', serif;
         color: black;
@@ -115,29 +92,19 @@
       align-content: center;
       justify-content: center;
     }
-    .projetos h2 {
+    .projetos h2, .sobre h2 {
         font-size: 1.7em;
         margin-bottom: 1em;
+        padding-top: 3em;
     }
-    .img-ford {
+    .img-ford, .img-barbearia, .img-ello {
         height: 160px;
         width: 220px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
+        object-position: 0; /*mover a imagem dentro da caixa*/
+        border-radius: 10px;
     }
-    .img-barbearia {
-        height: 160px;
-        width: 220px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-    }
-    .img-ello {
-        height: 160px;
-        width: 220px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
-    }
-    .projetos figcaption {
+   .projetos figcaption {
     padding:center;
     font-family: 'Noto Sans', serif;
     color: black;
@@ -149,11 +116,11 @@
         font-size: 2em;
         margin-bottom: 1em;
     }
-    .img-ford {
+    .img-ford, {
         height: 160px;
         width: 220px;
         object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: 10px; /*mover a imagem dentro da caixa*/
+        object-position: 0; /*mover a imagem dentro da caixa*/
     }
     .img-barbearia {
         height: 160px;
