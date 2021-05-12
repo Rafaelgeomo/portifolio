@@ -23,3 +23,8 @@
     font-family: var(--montserrat);
     font-size: 1rem;
 }
+@media screen and (min-width:768px) {
+    .sobre__titulo {
+        font-size: 1.7rem;
+    }
+}

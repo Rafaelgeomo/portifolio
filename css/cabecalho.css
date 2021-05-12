@@ -1,0 +1,57 @@
+.cabecalho {
+    color: var(--branco);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--branco);
+    position: absolute;
+     
+}
+.cabecalho__navegacao {
+    text-align: center;
+}
+.cabecalho__link {
+    font-size: .7rem;
+    font-family: var(--montserrat);
+    display: inline-block;
+    margin-right: .9rem;
+    margin-left: .9rem;
+    text-decoration: none;
+    transition: background-color 1s, color var(--branco) 1s;
+    list-style: none;
+    text-shadow: 1px 3px 18px var(--branco);
+    text-transform: uppercase;
+}
+.cabecalho__navegacao a:active,
+.cabecalho__navegacao a:hover {
+    color:var(--link-cabecalho);
+    
+}
+@media screen and (min-width: 768px) {
+    .menu a {
+        font-size: .9rem;
+    }
+}
+@media  screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row; /*deixando a direção em linha um elemento ao lado do outro*/
+        justify-content: space-between; /*O primeiro item é deslocado para o início do eixo principal, o último é deslocado para o final do eixo principal e os demais são distribuídos uniformemente entre eles*/
+        align-items: center;
+        border: none;
+        padding-bottom: 3rem;
+    }
+    .cabecalho__link {
+        font-size:  1.2rem;
+        color: var(--preto);
+    }
+    .cabecalho__navegacao a:active,
+    .cabecalho__navegacao a:hover {
+    color:var(--link-cabecalho-desktop);
+    
+}
+
+}

@@ -1,0 +1,34 @@
+.contatos {
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contatos__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    color: var(--branco);
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
+.contato__logo {
+    color: var(--branco);
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.git, .instagram, .facebook, .linkedin {
+    margin:20px;
+}
+@media screen and (min-width:768px) {
+    .contatos__titulo {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .contatos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

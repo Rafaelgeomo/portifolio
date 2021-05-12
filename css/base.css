@@ -1,10 +1,23 @@
 :root {
-    --link-menu: rgb(252, 133, 36);
+    --link-cabecalho: #56CCF2;
+    --link-cabecalho-desktop: #E4F627;
     --preto: #000;
     --branco: #FFF;
     --cor-de-fundo:#060131;
     --cor-menu:#00161C;
     --cor-fundo-sobre:#EDEBFE;
     --cor-fundo-projetos:#E9FBF8;
+    --cor-fundo-contato:#103D4A;
     --montserrat: 'Montserrat', sans-serif;
+    
+}
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }

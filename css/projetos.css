@@ -1,11 +1,11 @@
 .projetos {
     padding-top: 2rem;
-    background-color: var(--cor-fundo-projetos);
+    background-color: var(--cor-fundo-contato);
     
 }
 .projetos__titulo {
     font-family: var(--montserrat);
-    color: var(--preto);
+    color: var(--branco);
     padding-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -25,13 +25,25 @@
     line-height: normal;
     font-family: var(--montserrat);
     margin-bottom: 1.3rem;
+    color: var(--branco);
 }
 .img-ford, .img-ello, .img-barbearia, .img-apeperia {
     width: 100vw;
     max-width: 600px;
     align-items: center;
 
-    box-shadow: 0 2px 10px 5px #00000020;
-
     margin-bottom: .5rem;
+}
+@media screen and (min-width: 768px) {
+    .img-ford, .img-ello, .img-barbearia, .img-apeperia {
+        width: 50vw;
+    }
+    .projetos__titulo {
+        font-size: 1.7rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .img-ford, .img-ello, .img-barbearia, .img-apeperia {
+        width: 35vw;
+    }
 }

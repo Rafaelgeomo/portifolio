@@ -1,0 +1,14 @@
+.voltar-ao-topo {
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-image: url(../img/seta.png);
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+
+}
+.voltar-ao-topo:hover {
+    cursor: pointer;
+    background-position: o -60px;
+}
