@@ -1,113 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rafael Jeronymo</title>
-  <link rel="stylesheet" href="css/estilos2.css">
-  <link rel="stylesheet" href="css/projeto2.css">
-  <link rel="stylesheet" href="css/contato2.css">
-  <link rel="stylesheet" href="css/sobre.css">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/menu.css" rel="stylesheet">
+  <link href="css/principal.css" rel="stylesheet">
+  <link href="css/projetos.css" rel="stylesheet">
+  <link href="css/contato2.css" rel="stylesheet">
+  <link href="css/sobre.css" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Noto+Sans:wght@400;700&display=swap"
     rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,300&family=Patrick+Hand&family=Permanent+Marker&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/8526c045bd.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="#"><i class="fas fa-home"></i></a></li>
+        <li><a href="#Principal">Home</a></li>
         <li><a href="#Sobre">Sobre</a></li>
         <li><a href="#Projetos">Projetos</a></li>
         <li><a href="#Contatos">Contatos</a></li>
       </ul>
     </nav>
-    </header>
-    <main>
-
-    <section class="principal">
+  </header>
+  <main>
+    <section class="principal" id="Principal">
       <h1 class="site-title">Rafael Jeronymo</h1>
       <h2 class="site-subtitle">Desenvolvedor Front-End Jr.</h2>
-      <h3>Estou embarcando nesse mundão da programação e cada dia mais apaixonado</h3>
+      <h3 class="site-texto">Estou embarcando nesse mundão da programação e cada dia mais apaixonado</h3>
     </section>
-   
-  <section class="sobre" id="Sobre">
-    <h2>Sobre</h2>
 
-    <figure class="avatar">
-      <img src="img/apresentacao1.jpg" alt="Rafael Jeronymo">
-    </figure>
+    <section class="sobre" id="Sobre">
+      <div class="sobre__conteudo">
+        <h2 class=" sobre__titulo">Sobre</h2>
+        <p class= "sobre__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste dolor nam labore unde illo facere fugit dicta
+          reprehenderit impedit officiis est aliquam ipsum necessitatibus, voluptatem doloribus.
+          Molestias tempora vero corrupti.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste dolor nam labore unde illo facere fugit dicta
-      reprehenderit impedit officiis est aliquam ipsum necessitatibus, voluptatem doloribus.
-      Molestias tempora vero corrupti.</p>
+        <p class= "sobre__texto">Culpa voluptate aut doloremque sunt nemo nulla dignissimos blanditiis iure maxime
+          explicabo inventore ipsa deleniti sapiente, voluptatibus, eligendi a debitis distinctio provident,
+          nam itaque aspernatur nobis fugiat ea. Eligendi, fugiat?</p>
 
-    <p>Culpa voluptate aut doloremque sunt nemo nulla dignissimos blanditiis iure maxime
-      explicabo inventore ipsa deleniti sapiente, voluptatibus, eligendi a debitis distinctio provident,
-      nam itaque aspernatur nobis fugiat ea. Eligendi, fugiat?</p>
+        <p class= "sobre__texto">Eveniet quae vel nobis quia molestias, incidunt nulla tempora aspernatur vitae ex,
+          praesentium ducimus in consequuntur doloremque veniam dolores tenetur asperiores
+          provident natus rem nam? Aut mollitia veritatis similique cumque.</p>
 
-    <p>Eveniet quae vel nobis quia molestias, incidunt nulla tempora aspernatur vitae ex,
-      praesentium ducimus in consequuntur doloremque veniam dolores tenetur asperiores
-      provident natus rem nam? Aut mollitia veritatis similique cumque.</p>
+        <p class= "sobre__texto">Ducimus vero labore molestiae quidem suscipit quo cumque repellendus ipsum harum
+          deleniti reiciendis reprehenderit porro accusamus repellat delectus, beatae, quis,
+          tenetur neque ea voluptas. Sapiente ratione facilis possimus dolor et.</p>
+      </div>
+      <img src="img/apresentacao1.jpg" alt="Rafael Jeronymo" class="avatar">
 
-    <p>Ducimus vero labore molestiae quidem suscipit quo cumque repellendus ipsum harum
-      deleniti reiciendis reprehenderit porro accusamus repellat delectus, beatae, quis,
-      tenetur neque ea voluptas. Sapiente ratione facilis possimus dolor et.</p>
-  </section>
-  <section class="projetos" id="Projetos">
-    <h2>Projetos</h2>
-    <div class="grid">
-      <figure>
-        <a href="https://rafaelgeomo.github.io/diagramacao/" target="_blank">
-          <img class="img-ford" src="./img/logo1.png" alt="Logo Ford"></a>
-         <figcaption>Site Ford feito em Aula no curso Caelum</figcaption>
-         </figure>
-      <figure>
-        <a href="https://rafaelgeomo.github.io/elloadesivos/" target="_blank">
-          <img class="img-ello" src="./img/Elloadesivos.jpg" alt="Ello Adesivos">
-        </a>
-        <figcaption>Ello Adesivos</figcaption>
-      </figure>
-      <figure>
-        <a href="https://rafaelgeomo.github.io/barbeariaalura/" target="_blank">
-          <img class="img-barbearia" src="./img/barbearia.jpg" alt="Barbearia">
-        </a>
-        <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
-      </figure>
-      <figure>
-        <a href="https://rafaelgeomo.github.io/ProjetoApeperia/" target="_blank">
-          <img class="img-barbearia" src="./img/logo-apeperia.svg" alt="Apeperia">
-        </a>
-        <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
-      </figure>
+    </section>
+    <section class="projetos" id="Projetos">
+      <h2 class="projetos__titulo">Projetos</h2>
+      <div class="site__ford">
+        <figure>
+          <a href="https://rafaelgeomo.github.io/diagramacao/" target="_blank">
+            <img class="img-ford" src="./img/logo1.png" alt="Logo Ford"></a>
+          <figcaption>Site Ford feito em Aula no curso Caelum</figcaption>
+        </figure>
+        </div>
+        <div class="site__ello">
+          <figure>
+            <a href="https://rafaelgeomo.github.io/elloadesivos/" target="_blank">
+              <img class="img-ello" src="./img/Elloadesivos.jpg" alt="Ello Adesivos">
+            </a>
+            <figcaption>Ello Adesivos</figcaption>
+          </figure>
+        </div>
+        <div class="site__barbearia">
+          <figure>
+            <a href="https://rafaelgeomo.github.io/barbeariaalura/" target="_blank">
+              <img class="img-barbearia" src="./img/barbearia.jpg" alt="Barbearia">
+            </a>
+            <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
+          </figure>
+        </div>
+        <div class="site__apeperia">
+          <figure>
+            <a href="https://rafaelgeomo.github.io/ProjetoApeperia/" target="_blank">
+              <img class="img-apeperia" src="./img/logo-apeperia.svg" alt="Apeperia">
+            </a>
+            <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
+          </figure>
+        </div>           
+    </section>
     </div>
-  </section>
-  </div>
-  <section class="contatos" id="Contatos">
-    <h2>Contatos</h2>
-    <div class="grid icons">
-      <a href="https://www.facebook.com/rafa.jeronymo/" target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://www.instagram.com/jeronymo.rafael/?hl=pt-br" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/rafael-jeronymo-8b5a29165/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/Rafaelgeomo" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-  </section>
-</main>
+    <section class="contatos" id="Contatos">
+      <h2>Contatos</h2>
+      <div class="grid icons">
+        <a href="https://www.facebook.com/rafa.jeronymo/" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/jeronymo.rafael/?hl=pt-br" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-jeronymo-8b5a29165/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Rafaelgeomo" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

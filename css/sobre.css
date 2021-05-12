@@ -1,77 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .sobre {
-    margin: 20px;
-    min-height: 80vh;
     position: relative;
-    padding-top: 3.5em;
+    padding-top: 2rem;
+    padding-bottom: .4rem;
+    background-color: var(--cor-fundo-sobre);
 }
-.sobre h2 {
-    font-family: 'Comic Neue', cursive;
-    color: black;
+.sobre__titulo {
+    font-family: var(--montserrat);
+    color: var(--preto);
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 .sobre p {
+    margin: 20px;
     text-indent: 1.4em;
     margin-bottom: 1.2em;
     text-align: justify;
 }
-@media (min-width: 320px ) {
-.sobre h2 {
-    font-size: 1.2em;
-    margin-bottom: 1em;
+.avatar {
+    display: none;
 }
-.sobre .avatar img {
-    margin-left: 3.5em;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
-}
-}
-@media (min-width: 460px ) {
-    .sobre h2 {
-        font-size: 1.5em;
-        margin-bottom: 1em;
-    }
-    .sobre .avatar img {
-        float: right;
-        margin-left: 2em;
-        border-radius: 50%;
-        height: 250px;
-        width: 250px;
-        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
-    }
-}
-@media (min-width: 880px ) {
-    .sobre h2 {
-        font-size: 1.8em;
-        margin-bottom: 1em;
-        padding-top: 15px;
-    }
-    .sobre .avatar img {
-        float: right;
-        margin-left: 2em;
-        border-radius: 50%;
-        height: 300px;
-        width: 300px;
-        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
-    }
-}
-@media (min-width: 1440px ) {
-    .sobre h2 {
-        font-size: 2.1em;
-        margin-bottom: 0.7em;
-        padding-top: 0;
-    }
-    .sobre .avatar img {
-        float: right;
-        margin-left: 2em;
-        border-radius: 50%;
-        height: 320px;
-        width: 320px;
-        /*clip-path: polygon(); pode colocar qualquer forma, pegando do site https://bennettfeely.com/clippy/ */
-    }
+.sobre__texto {
+    font-family: var(--montserrat);
+    font-size: 1rem;
 }

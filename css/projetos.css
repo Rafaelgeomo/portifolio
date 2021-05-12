@@ -1,0 +1,22 @@
+.projetos {
+    min-height: 100vh;
+    position: relative;
+    padding-top: 2rem;
+    background-color: var(--cor-fundo-projetos);
+}
+.projetos__titulo {
+    font-family: var(--montserrat);
+    color: var(--preto);
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.projetos .grid {
+    display: grid;
+    gap: 3.5em;
+}
+.projetos figure {
+    text-align: center;
+}
+.projetos a {
+    text-decoration: none;
+}
