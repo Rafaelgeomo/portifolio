@@ -1,18 +1,16 @@
-$ (function(){
-    $('.voltar-ao-topo').hide();
-
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 100){
-            $('.voltar-ao-topo').fadeIn();
-        }else{
-            $('.voltar-ao-topo').fadeOut();
-        }
-    });
-
-    $('.voltar-ao-topo').click(function(){
-        $('html,body').animate({
-            scrollTop: 0
-        }, 800);
-    })
-
+$(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
 });
