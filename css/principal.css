@@ -44,10 +44,8 @@
 }
 @media  screen and (min-width: 1024px) {
     .principal {
-        background-image: url(../img/fundo.jpg);
-        background-repeat: no-repeat;
-        block-size: cover;
-
+        background: url(../img/fundo.jpg) no-repeat center / cover;
+        
         padding-top: 13.25rem;
     }
     .site-subtitle, .site-texto, .site-title {
