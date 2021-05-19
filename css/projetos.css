@@ -12,7 +12,6 @@
 .site {
     align-items: center;
     display: flex;
-    justify-content: ;
     flex-direction: column;
     margin-bottom: 2rem;
 }
