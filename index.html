@@ -24,7 +24,7 @@
 </head>
 <body>
   <header class="cabecalho container ">
-    <nav class="cabecalho__navegacao">
+     <nav class="cabecalho__navegacao">
       <ul>
         <li class="cabecalho__link"><a href="#Principal">Home</a></li>
         <li class="cabecalho__link"><a href="#Sobre">Sobre</a></li>
@@ -33,7 +33,7 @@
       </ul>
     </nav>
   </header>
-  <main class="main">
+  <main>
     <section class="principal container" id="Principal">
       <h1 class="site-title">Rafael Jeronymo</h1>
       <h2 class="site-subtitle">Desenvolvedor Front-End Jr.</h2>
@@ -43,6 +43,7 @@
     <section class="sobre container" id="Sobre">
       <div class="sobre__conteudo">
         <h2 class=" sobre__titulo">Sobre</h2>
+        <div class="sobre__imagem"></div>
         <p class= "sobre__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste dolor nam labore unde illo facere fugit dicta
           reprehenderit impedit officiis est aliquam ipsum necessitatibus, voluptatem doloribus.
           Molestias tempora vero corrupti.</p>
@@ -59,37 +60,34 @@
           deleniti reiciendis reprehenderit porro accusamus repellat delectus, beatae, quis,
           tenetur neque ea voluptas. Sapiente ratione facilis possimus dolor et.</p>
       </div>
-      <img src="img/apresentacao1.jpg" alt="Rafael Jeronymo" class="avatar">
-
+      
     </section>
     <section class="projetos container" id="Projetos">
       <h2 class="projetos__titulo">Projetos</h2>
       <div class="site">
-        <figure>
+        <div class="site__mae">
           <a href="https://rafaelgeomo.github.io/diagramacao/" target="_blank">
-            <img class="img-ford" src="./img/logo1.png" alt="Logo Ford">
-          </a>
-          <figcaption>Site Ford feito em Aula no curso Caelum</figcaption>
-        </figure>        
-        <figure>
+            <img class="site__imagem" src="./img/logo1.png" alt="Logo Ford">
+            <p class="site__texto">Site Ford feito em Aula no curso Caelum</p>
+          </a>                      
             <a href="https://rafaelgeomo.github.io/elloadesivos/" target="_blank">
-              <img class="img-ello" src="./img/Elloadesivos.jpg" alt="Ello Adesivos">
+              <img class="site__imagem" src="./img/Elloadesivos.jpg" alt="Ello Adesivos">
+              <p class="site__texto">Ello Adesivos Feito por mim</p>
             </a>
-          <figcaption>Ello Adesivos</figcaption>
-          </figure>
-          <figure>
-            <a href="https://rafaelgeomo.github.io/barbeariaalura/" target="_blank">
-              <img class="img-barbearia" src="./img/barbearia.jpg" alt="Barbearia">
+             <a href="https://rafaelgeomo.github.io/barbeariaalura/" target="_blank">
+              <img class="site__imagem" src="./img/barbearia.jpg" alt="Barbearia">
+              <p class="site__texto">Site Barbearia feito em Aula no curso Alura</p>
             </a>
-            <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
-          </figure>
-          <figure>
-            <a href="https://rafaelgeomo.github.io/ProjetoApeperia/" target="_blank">
-              <img class="img-apeperia" src="./img/logo-apeperia.svg" alt="Apeperia">
+             <a href="https://rafaelgeomo.github.io/ProjetoApeperia/" target="_blank">
+              <img class="site__imagem" src="./img/logo-apeperia.svg" alt="Apeperia">
+              <p class="site__texto">Site Apeperia feito em Aula no curso Alura</p>
             </a>
-            <figcaption>Site Barbearia feito em Aula no curso Alura</figcaption>
-          </figure>
-        </div>           
+            <a href="https://rafaelgeomo.github.io/FrutaeFruto/" target="_blank">
+              <img class="site__imagem" src="./img/logo-frutaefruto.jpg" alt="Fruta e Fruto">
+              <p class="site__texto">Site Fruta e Fruto feito em Aula no curso Alura</p>
+            </a>
+            </div> 
+            </div>          
     </section>
     <section class="contatos container" id="Contatos">
       <h2 class="contatos__titulo">Contatos</h2>

@@ -1,16 +1,16 @@
 .contatos {
+    align-items: center;
     background-color: var(--preto);
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-top: 2rem;
 }
 .contatos__titulo {
+    color: var(--branco);
     font-family: var(--montserrat);
     font-size: 2rem;
-    color: var(--branco);
-    padding-top: 1.5rem;
     padding-bottom: 4rem;
+    padding-top: 1.5rem;
 }
 .contato__logo {
     color: var(--branco);
@@ -23,13 +23,13 @@
 }
 @media screen and (min-width:768px) {
     .contatos__titulo {
-        font-size: 1.7rem;
+    font-size: 1.7rem;
     }
 }
 @media screen and (min-width: 1024px) {
     .contatos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     }
 }

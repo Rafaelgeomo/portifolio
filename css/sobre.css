@@ -1,20 +1,28 @@
 .sobre {
-    position: relative;
-    padding-top: 2rem;
-    padding-bottom: .4rem;
     background-color: var(--cor-fundo-sobre);
+    padding-bottom: .4rem;
+    padding-top: 2rem;
+    position: relative;
 }
 .sobre__titulo {
-    font-family: var(--montserrat);
     color: var(--preto);
-    padding-bottom: 1rem;
+    font-family: var(--montserrat);
     font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sobre__imagem {
+    background: url(../img/apresentacao1.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    display: none;
 }
 .sobre p {
     margin: 20px;
-    text-indent: 1.4em;
     margin-bottom: 1.2em;
     text-align: justify;
+    text-indent: 1.4em;
 }
 .avatar {
     display: none;
@@ -26,5 +34,8 @@
 @media screen and (min-width:768px) {
     .sobre__titulo {
         font-size: 1.7rem;
+    }
+    .sobre__imagem {
+        display: block;
     }
 }

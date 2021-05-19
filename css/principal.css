@@ -1,65 +1,78 @@
 .principal {
+    align-items: center;
+    background: url(../img/fundo1.jpg);
+    background-size: 100vw 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 9.25rem;
     padding-bottom: 17rem;
-    background-color: var(--cor-de-fundo);
+    padding-top: 9.25rem;
+    text-align: center;
 }
 .site-title {
+    color: var(--cor-de-fundo);
     font-family: var(--montserrat);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--branco);
 }
 .site-subtitle {
+    color: var(--cor-de-fundo);
     font-family: var(--montserrat);
+    font-weight: 500;
     font-size: 1.25rem;
     line-height: normal;
-    color: var(--branco);
-
     margin: 0 auto 2.5rem;
+
 }
 .site-texto {
+    color: var(--cor-de-fundo);
     font-family: var(--montserrat);
+    font-weight: 500;
     font-size: 1rem;
     line-height: normal;
-    color: var(--branco);
-
     margin: 0 auto 2.5rem;
+
 }
 @media screen and (min-width: 768px) {
     .site-texto {
-        max-width: 600px;
-        font-size: 1.1rem;
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: var(--cor-de-fundo);
+    font-weight: 600;
     }
     .site-subtitle {
-        font-size: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--cor-de-fundo);
+    font-weight: 600;
     }
     .site-title {
-        font-size: 2.25rem;
+    font-size: 2.25rem;
+    color: var(--cor-de-fundo);
+    font-weight: 600;
+    }
+    .principal {
+    background: url(../img/fundo.jpg) no-repeat;
+    background-size: 100vw 100vh;
     }
 }
 @media  screen and (min-width: 1024px) {
     .principal {
-        background: url(../img/fundo.jpg) no-repeat center / cover;
-        
-        padding-top: 13.25rem;
+    background: url(../img/fundo.jpg) no-repeat center / cover;
+    padding-top: 13.25rem;    
     }
     .site-subtitle, .site-texto, .site-title {
-        color: var(--preto);
+    color: var(--cor-de-fundo);
+    font-weight: 600;
     }
     .site-texto {
-        max-width: 900px;
-        font-size: 1.5rem;
+    font-size: 1.5rem;
+    max-width: 900px;
     }
     .site-subtitle {
-        font-size: 2rem;
+    font-size: 2rem;
     }
     .site-title {
-        font-size: 3rem;
+    font-size: 3rem;
     }
 
 }

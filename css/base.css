@@ -10,31 +10,27 @@
     --cor-fundo-contato:#103D4A;
     --cinza:#8B8282;
     --montserrat: 'Montserrat', sans-serif;
-    
 }
 .container {
     padding-right: 6%;
     padding-left: 6%;
 }
-.main {
-    background-color: var(--cor-de-fundo);
-}
 .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    display: none;
-    color: var(--branco);
     background-color: var(--cinza);
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    height: 25px;
-    width: 35px;
-    opacity: .7;
-    z-index: 100000;
-    transition: all .1s ease-in-out 0s;
-    text-align: center;
+    bottom: 20px;
     border-radius: 4px 4px 0 0;
+    color: var(--branco);
+    display: none;
+    font-size: 1.5rem;
+    height: 25px;
+    opacity: .7;
+    position: fixed;
+    right: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out 0s;
+    width: 35px;
+    z-index: 100000;
 }
 .back-to-top:hover {
  background-color: var(--link-cabecalho-desktop);

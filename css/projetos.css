@@ -1,49 +1,49 @@
 .projetos {
-    padding-top: 2rem;
     background-color: var(--cor-de-fundo);
+    padding-top: 2rem;
     
 }
 .projetos__titulo {
-    font-family: var(--montserrat);
     color: var(--branco);
-    padding-bottom: 1rem;
+    font-family: var(--montserrat);
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 .site {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-   
+    display: flex;
+    justify-content: ;
+    flex-direction: column;
     margin-bottom: 2rem;
 }
 .projetos a {
     text-decoration: none;
 }
-.site figcaption {
+.site__texto {
+    font-family: var(--montserrat);
     font-weight: 700;
     font-size: 1rem;
     line-height: normal;
-    font-family: var(--montserrat);
     margin-bottom: 1.3rem;
     color: var(--branco);
 }
-.img-ford, .img-ello, .img-barbearia, .img-apeperia {
-    width: 100vw;
-    max-width: 600px;
+.site__imagem {
     align-items: center;
-
     margin-bottom: .5rem;
+    max-width: 600px;
+    width: 100vw;
+
 }
 @media screen and (min-width: 768px) {
-    .img-ford, .img-ello, .img-barbearia, .img-apeperia {
-        width: 50vw;
+    .site__imagem {
+    width: 50vw;
     }
     .projetos__titulo {
-        font-size: 1.7rem;
+    font-size: 1.7rem;
     }
 }
-@media screen and (min-width: 768px) {
-    .img-ford, .img-ello, .img-barbearia, .img-apeperia {
-        width: 35vw;
+@media screen and (min-width: 1024px) {
+    .site__imagem {
+    width: 35vw;
     }
 }
