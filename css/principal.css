@@ -1,11 +1,11 @@
 .principal {
     align-items: center;
-    background: url(../img/fundo1.jpg);
-    background-size: 100vw 100vh;
+    background: url(../img/fundo1.jpg) no-repeat;
+    background-size: 100vw 110vh;
     display: flex;
     flex-direction: column;
-    padding-bottom: 17rem;
-    padding-top: 9.25rem;
+    padding-bottom: 14.3rem;
+    padding-top: 11.25rem;
     text-align: center;
 }
 .site-title {
@@ -51,14 +51,13 @@
     font-weight: 600;
     }
     .principal {
-    background: url(../img/fundo.jpg) no-repeat;
-    background-size: 100vw 100vh;
+    padding-bottom: 13.5rem;
     }
 }
 @media  screen and (min-width: 1024px) {
     .principal {
-    background: url(../img/fundo.jpg) no-repeat center / cover;
-    padding-top: 13.25rem;    
+    padding-bottom: 11.5rem;
+    padding-top: 12rem;    
     }
     .site-subtitle, .site-texto, .site-title {
     color: var(--cor-de-fundo);
