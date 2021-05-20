@@ -9,8 +9,8 @@
 .principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
-    padding-bottom: 3.7rem;
-    padding-top: 11.25rem;
+    padding-bottom: 22.3rem;
+    padding-top: 14.25rem;
 }
 .principal__titulo {
     font-size: 2rem;
@@ -34,7 +34,8 @@
     .principal__conteudo{
     color: var(--cor-de-fundo);
     font-weight: 600;
-    padding-bottom: 10rem;
+    padding-bottom: 4rem;
+    padding-top: 9rem;
     }
     .principal__texto {
     font-size: 1.1rem;
