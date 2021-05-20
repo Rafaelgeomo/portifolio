@@ -4,29 +4,26 @@
     background-size: 100vw 110vh;
     display: flex;
     flex-direction: column;
-    padding-bottom: 23.3rem;
-    padding-top: 11.25rem;
     text-align: center;
 }
-.site-title {
+.principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
+    padding-bottom: 20.3rem;
+    padding-top: 11.25rem;
+}
+.principal__titulo {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
 }
-.site-subtitle {
-    color: var(--cor-de-fundo);
-    font-family: var(--montserrat);
+.principal__subtitulo {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: normal;
     margin: 0 auto 2.5rem;
-
 }
-.site-texto {
-    color: var(--cor-de-fundo);
-    font-family: var(--montserrat);
+.principal__texto {
     font-weight: 500;
     font-size: 1rem;
     line-height: normal;
@@ -34,48 +31,42 @@
 
 }
 @media screen and (min-width:500px ){
-    .principal {
+    .principal__conteudo {
         padding-bottom: 3.7rem;
         }
 }
 @media screen and (min-width: 768px) {
-    .site-texto {
+    .principal__conteudo{
+    color: var(--cor-de-fundo);
+    font-weight: 600;
+    padding-bottom: 13.5rem;
+    }
+    .principal__texto {
     font-size: 1.1rem;
     max-width: 600px;
-    color: var(--cor-de-fundo);
-    font-weight: 600;
     }
-    .site-subtitle {
+    .principal__subtitulo {
     font-size: 1.5rem;
-    color: var(--cor-de-fundo);
-    font-weight: 600;
     }
-    .site-title {
+    .principal__titulo {
     font-size: 2.25rem;
-    color: var(--cor-de-fundo);
-    font-weight: 600;
-    }
-    .principal {
-    padding-bottom: 13.5rem;
     }
 }
 @media  screen and (min-width: 1024px) {
-    .principal {
-    padding-bottom: 11.5rem;
-    padding-top: 12rem;    
-    }
-    .site-subtitle, .site-texto, .site-title {
+    .principal__conteudo {
     color: var(--cor-de-fundo);
     font-weight: 600;
+    padding-bottom: 11rem;
+    padding-top: 13rem;
     }
-    .site-texto {
+    .principal__texto {
     font-size: 1.5rem;
     max-width: 900px;
     }
-    .site-subtitle {
+    .principal__subtitulo {
     font-size: 2rem;
     }
-    .site-title {
+    .principal__titulo {
     font-size: 3rem;
     }
 
