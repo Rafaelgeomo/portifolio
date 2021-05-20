@@ -33,6 +33,11 @@
     margin: 0 auto 2.5rem;
 
 }
+@media screen and (min-width:600px ){
+    .principal {
+        padding-bottom: 3.7rem;
+        }
+}
 @media screen and (min-width: 768px) {
     .site-texto {
     font-size: 1.1rem;
