@@ -43,7 +43,7 @@
         background-size: 100vw 110vh;
     }
    .principal__conteudo{
-    color: var(--cor-de-fundo);
+    color: var(--branco);
     font-weight: 600;
     padding-bottom: 3.5rem;
     padding-top: 8rem;
