@@ -9,7 +9,7 @@
 .principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
-    padding-bottom: 20.5rem;
+    padding-bottom: 20.8rem;
     padding-top: 13.25rem;
 }
 .principal__titulo {
@@ -35,6 +35,7 @@
     .principal__conteudo {
     padding-bottom: 2.5rem;
     padding-top: 9rem;
+    color: var(--branco);
     }
 }
 @media screen and (min-width: 768px) {
@@ -43,7 +44,7 @@
         background-size: 100vw 110vh;
     }
    .principal__conteudo{
-    color: var(--branco);
+    color: var(--cor-de-fundo);
     font-weight: 600;
     padding-bottom: 3.5rem;
     padding-top: 8rem;
