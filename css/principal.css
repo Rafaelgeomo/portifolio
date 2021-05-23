@@ -9,20 +9,21 @@
 .principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
-    padding-bottom: 20.8rem;
-    padding-top: 13.25rem;
+    padding-bottom: 13.8rem;
+
 }
 .principal__titulo {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 auto 2.5rem;
-}
+    padding-top: 7rem;
+    }
 .principal__subtitulo {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: normal;
     margin: 0 auto 2.5rem;
+    padding-bottom: 17.5rem;
 }
 .principal__texto {
     font-weight: 500;
@@ -54,9 +55,11 @@
     }
     .principal__subtitulo {
     font-size: 1.5rem;
+    padding-bottom: 11.5rem;
     }
     .principal__titulo {
     font-size: 2.25rem;
+    padding-top: 2rem;
     }
 }
 @media  screen and (min-width: 1024px) {
