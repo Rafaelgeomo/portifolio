@@ -9,13 +9,14 @@
 .principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
-    padding-bottom: 22.3rem;
-    padding-top: 14.25rem;
+    padding-bottom: 15.9rem;
+    padding-top: 13.25rem;
 }
 .principal__titulo {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0 auto 2.5rem;
 }
 .principal__subtitulo {
     font-weight: 500;
@@ -31,13 +32,13 @@
 
 }
 @media screen and (min-width: 500px) {
-    .principal__conteudo{
+    .principal__conteudo {
     padding-bottom: 2.5rem;
     padding-top: 9rem;
     }
-
+}
 @media screen and (min-width: 768px) {
-    .principal__conteudo{
+   .principal__conteudo{
     color: var(--cor-de-fundo);
     font-weight: 600;
     padding-bottom: 3.5rem;
