@@ -39,3 +39,8 @@
         display: block;
     }
 }
+@media screen and (min-width:1024px) {
+    .sobre__conteudo {
+        padding-bottom: 3.4rem ;
+    }
+}
