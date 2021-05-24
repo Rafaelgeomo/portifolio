@@ -9,38 +9,35 @@
 .principal__conteudo{
     color: var(--cor-de-fundo);
     font-family: var(--montserrat);
-    padding-bottom: 13.8rem;
+    padding-bottom: 5.3rem;
 
 }
 .principal__titulo {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 7rem;
+    padding-top: 6.5rem;
     }
 .principal__subtitulo {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: normal;
-    margin: 0 auto 2.5rem;
-    padding-bottom: 17.5rem;
+    padding-bottom: 21.5rem;
 }
 .principal__texto {
     font-weight: 500;
     font-size: 1rem;
     line-height: normal;
-    margin: 0 auto 2.5rem;
-
 }
 @media screen and (min-width: 500px) {
     .principal__conteudo{
-        padding-bottom: 4.2rem;    
+    padding-bottom: 2.5rem;    
     }
     .principal__titulo {
     padding-top: 6rem;
     }
     .principal__subtitulo {
-    padding-bottom: 3.5rem;
+    padding-bottom: 7.5rem;
     }
 
 }
@@ -52,20 +49,18 @@
    .principal__conteudo{
     color: var(--cor-de-fundo);
     font-weight: 600;
-    padding-bottom: 2.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+    padding-top: 0;
     }
     .principal__texto {
     font-size: 1.1rem;
     max-width: 600px;
     }
     .principal__subtitulo {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+    font-size: 1.5rem;    
     }
     .principal__titulo {
-    font-size: 2.25rem;
-    padding-top: .5rem;
+    font-size: 2.25rem;    
     }
 }
 @media  screen and (min-width: 1024px) {
@@ -73,7 +68,6 @@
     color: var(--cor-de-fundo);
     font-weight: 600;
     padding-bottom: 3.5rem;
-    padding-top: 12rem;
     }
     .principal__texto {
     font-size: 1.5rem;
@@ -81,9 +75,11 @@
     }
     .principal__subtitulo {
     font-size: 2rem;
+    padding-bottom: 17.5rem
     }
     .principal__titulo {
     font-size: 3rem;
+    padding-top: 11rem;
     }
 
 }
