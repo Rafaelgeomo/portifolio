@@ -16,13 +16,13 @@
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 6.5rem;
+    padding-top: 7.5rem;
     }
 .principal__subtitulo {
     font-weight: 500;
     font-size: 1.25rem;
     line-height: normal;
-    padding-bottom: 21.5rem;
+    padding-bottom: 20.5rem;
 }
 .principal__texto {
     font-weight: 500;
@@ -37,7 +37,7 @@
     padding-top: 6rem;
     }
     .principal__subtitulo {
-    padding-bottom: 7.5rem;
+    padding-bottom: 6.5rem;
     }
 
 }
